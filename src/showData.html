@@ -1,0 +1,10 @@
+<p class="p1">my name is {{ myName }}</p>
+<p>friends:</p>
+        <ul>
+            <li *ng-for="#name of names">
+                {{ name }}
+            </li>
+        </ul>
+        <input #nametext (keyup)="doneTyping($event)">
+        <button  (click)="updateItems(nametext.value)" >addItems</button>
+        <p class="p2" *ng-if="names.length > 3">you have many friends</p>
