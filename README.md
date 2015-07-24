@@ -6,7 +6,7 @@ much new technologies such as **web components**,**ES6**，**mobile web** and so
 the broswer environment,so many polyfills technologies emerged as the times require.This repo provide two convenience,one is 
 offering you a enviroment you can run Angular2 code directly in your broswer without setting up enviroment youself, the other is 
 making some demos in Angular2.0.0-alpha.31(this version must be important ,because ng2 api vary a little in different versions ).
-##how to run this demo
+##How to run this demo
 At first,make sure your gulp installed,if not,typing the following code in the root directory
 
     npm install -g gulp
@@ -21,6 +21,6 @@ now ,you can run this demo
 it will start up a web server and run this demo in the broswer.If you changed some code ,it will watch files you edit and 
 re-transpiled every change you made and you can refresh the broswer to check the result.
 
-##to be continued
+##To be continued
 This repo will be  added much new stuff along with Angular2 's development.In fact ,Angular2.0 is now in alpha 32 version,and
 it it not stable.Many demos written in ng2 will be placed on this repo in the further time. 
